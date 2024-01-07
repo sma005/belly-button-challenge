@@ -44,20 +44,14 @@ let optionChanged = id => {
     var data = [trace1];
     
     var layout = {
-      title: 'Marker Size',
-      showlegend: false,
-
       xaxis: {
         title: {
-          text: 'x Axis'
+          text: 'OTU ID'
         },
-      },
-
-      height: 600,
-      width: 600
+      }
     };
     
-    Plotly.newPlot('bubble', data);
+    Plotly.newPlot('bubble', data, layout);
 
     //Bonus gauge
     //Chose a different chart. Tired of working on it.
