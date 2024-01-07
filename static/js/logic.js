@@ -46,6 +46,13 @@ let optionChanged = id => {
     var layout = {
       title: 'Marker Size',
       showlegend: false,
+
+      xaxis: {
+        title: {
+          text: 'x Axis'
+        },
+      },
+
       height: 600,
       width: 600
     };
